@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    tools:context="com.example.myapplication.MainActivity">
+
+    <Button
+        android:id="@+id/buttonBatteryStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="68dp"
+        android:layout_below="@+id/textViewBatteryStatus"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="621dp"
+        android:layout_x="65dp"
+        android:layout_y="546dp"
+        android:text="@string/click_here" />
+
+    <TextView
+        android:id="@+id/textViewBatteryHealth"
+        android:layout_width="348dp"
+        android:layout_height="wrap_content"
+        android:layout_x="18dp"
+        android:layout_y="307dp"
+        android:text="@string/current_battery_health"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/textViewBatteryStatus"
+        android:layout_width="344dp"
+        android:layout_height="wrap_content"
+        android:layout_x="17dp"
+        android:layout_y="254dp"
+        android:text="@string/current_battery_status"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/textViewBatteryVol"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_x="20dp"
+        android:layout_y="375dp"
+        android:text="@string/current_battery_voltage"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+</AbsoluteLayout>

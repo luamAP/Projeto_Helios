@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="current_battery_status">Current Battery Status</string>
+    <string name="current_battery_health">Current Battery Health</string>
+    <string name="current_battery_voltage">Current Battery Voltage</string>
+    <string name="click_here">Click here to Get battery Info</string>
+</resources>
